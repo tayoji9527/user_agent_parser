@@ -1,15 +1,15 @@
 class Browser {
   /// The browser name, set manually for a browser
-  String name;
+  String? name;
 
   /// The browser name, parsed directly from the user agent string without modification
-  String unformattedName;
+  String? unformattedName;
 
   /// The browser version
-  String version;
+  String? version;
 
   /// The regex that was used to parse this browser
-  String parsedWithRegex;
+  String? parsedWithRegex;
 
   Browser({
     this.name,

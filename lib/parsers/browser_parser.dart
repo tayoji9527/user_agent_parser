@@ -1,9 +1,9 @@
 class BrowserParser {
   /// The browser name, set manually for a browser
-  String name;
+  String? name;
 
   /// The list of regexes that can possibly parse this browser
-  List<String> regexes;
+  List<String>? regexes;
 
   BrowserParser({
     this.name,
